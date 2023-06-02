@@ -1,7 +1,7 @@
 program hello
 implicit none
-integer i :: 10
-do i=1,10
+integer :: i
+do i=1,15
     print *,i
     if (mod(i,3)==0) then
         print*,'Fizz!'
