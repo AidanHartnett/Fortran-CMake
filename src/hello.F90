@@ -9,7 +9,7 @@ do i=1,10
     if (mod(i,5)==0) then
         print*,'Buzz!'
     end if
-       
+end do  
     print*,'Hello World!'
 
     end program hello
