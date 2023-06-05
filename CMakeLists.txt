@@ -15,3 +15,7 @@ if(ENABLE_DOCS)
   add_subdirectory(docs)
 endif()
 
+
+# Run unit tests.
+include(CTest)
+add_subdirectory(tests)
