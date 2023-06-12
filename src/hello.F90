@@ -7,6 +7,7 @@
 !>
 !> @author Aidan Hartnett @date 6/2/23
 !> @return 0 for success
+
 program hello
   implicit none
   integer :: MAX_COUNT
@@ -39,7 +40,8 @@ end subroutine fizzbuzz
 !>
 !> @return .true. if number is divisble by 3, .false. otherwise.
 !>
-!> @author Aidan Hartnett @date 6/11/23 
+!> @author Aidan Hartnett @date 6/11/23
+
 function fizzy(number)
   implicit none
   integer, intent(in) :: number
@@ -58,7 +60,8 @@ end function fizzy
 !>
 !> @return .true. if number is divisble by 5, .false. otherwise.
 !>
-!> @author Aidan Hartnett @date 6/11/23 
+!> @author Aidan Hartnett @date 6/11/23
+
 function buzzy(number)
   implicit none
   integer, intent(in) :: number
