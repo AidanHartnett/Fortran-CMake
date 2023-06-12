@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: install-dependencies
         run: |
-          sudo apt-get install doxygen graph viz
+          sudo apt-get install doxygen graphviz
         
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
