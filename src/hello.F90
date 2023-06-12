@@ -5,7 +5,8 @@
 
 !> This is a Fortran program.
 !>
-!> @author Ed Hartnett, @date 6/2/23
+!> @author Aidan Hartnett, @date 6/2/23
+!> @return 0 for success
 program hello
   implicit none
   integer :: MAX_COUNT
